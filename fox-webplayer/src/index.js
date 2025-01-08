@@ -1,10 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import "./Navbar.css"
-import "./NowPlaying.css"
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import "./styles/index.css";
+import "./styles/Navbar.css"
+import "./styles/NowPlaying.css"
+import "./styles/form.css"
+import "./styles/Footer.css";
+import App from "./static/App.js";
+import "./styles/HeroSection.css"
+import "./styles/About.css"
+import reportWebVitals from "./static/reportWebVitals.js";
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
